@@ -1,0 +1,6 @@
+#bs_install.cmake
+
+if (CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+  set (CMAKE_INSTALL_PREFIX "${CMAKE_BINARY_DIR}/local_install" CACHE PATH "..." FORCE)
+endif()
+
